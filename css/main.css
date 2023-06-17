@@ -1,0 +1,76 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+/* Styling for Navbar */
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+nav .nav-link{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #2c2c2c;
+    font-size: 22px;
+    margin: auto 10px; 
+}
+
+nav .nav-link:hover {
+    color: #a9a9a9;
+}
+
+.nav-link:visited, .nav-link:active {
+    color: inherit;
+}
+
+/* Styling for Projects */
+.projects h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: #ebebeb;
+    font-size: 33px;
+}
+
+.projects p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    color: #e3e3e3;
+    font-size: 22px;
+}
+
+.projects .img-fluid {
+    width: 100%;
+}
+
+.dark-background {
+    background-color: #222;
+}
+
+.projects .btn-main {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #e3e3e3;
+    background-color: #2C74B3;
+    margin-top: 8px;
+}
+
+.projects .btn-main:hover {
+    background-color: #e3e3e3;
+    color: #222;
+}
